@@ -5,8 +5,6 @@ To check android app is installed from google play store or not.
 Installation
 ------------
 
-### For Cordova 3.0.x:
-
 1. To add this plugin just type: `cordova plugin add https://github.com/shriniwasb/cordova-plugin-isappfromplaystore.git` or `phonegap local plugin add https://github.com/shriniwasb/cordova-plugin-isappfromplaystore`
 2. To remove this plugin type: `cordova plugin remove cordova-plugin-isappfromplaystore` or `phonegap local plugin remove cordova-plugin-isappfromplaystore`
 
@@ -24,11 +22,8 @@ function onDeviceReady()
         console.log(version);
          if(version=="false"){
             console.log("App not install from playstore");
-            //check new app version present or not
-            this.getAppVersion();
          }else{
             console.log("App install from playstore");
-            //do nothing
          }
       });
 }
