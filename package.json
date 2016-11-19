@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-isappfromplaystore",
+  "version": "0.0.1",
+  "description": "Cordova plugin check wheather the current app is install from playstore or not.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "app",
+    "playstore",
+    "appfromplaystore",
+    "plugin"
+  ],
+  "author": "Shriniwas bhoybar",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
